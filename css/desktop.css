@@ -1,0 +1,193 @@
+	@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat');
+
+body
+{
+	margin:0;
+	background-color: #000033
+}
+
+.container-fluid
+{
+	background-color: #000033;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+	color: lightblue;
+}
+
+a.navbar-default , a.navbar-brand
+{
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	transition: all 1.0s ease;
+}
+
+i.fa.fa-gamepad
+{
+	color: lightblue;
+}
+
+.navbar-default .navbar-brand:hover
+{
+	color: lightblue;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color: white;
+}
+
+.navbar-brand.sticky
+{
+	padding: 15px;
+}
+
+.navbar-inverse .navbar-toggle
+{
+	transition: 1s;
+	border: 0px;
+}
+
+.navbar-inverse .navbar-toggle:hover
+{
+	border: 0px;
+	background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	transition: all 1.0s; 
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+	color: lightblue;
+}
+
+div.particles
+{
+	height: 100vh;
+	width: 100%;
+}
+
+div.col-md-12
+{
+	background-color: #000033;
+	color: #FFFFFF;
+	text-align: justify;
+	padding-top: 40px;
+}
+
+h1
+{
+	text-align: center;
+	padding: 5px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h4.text-left
+{
+	color: lightblue;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.table>tbody>tr>td
+{
+	color: white;
+	font-size: 13px;
+}
+
+a.btn.btn-primary:hover
+{
+	background-color: lightblue;
+}
+
+a.btn.btn-primary
+{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: block;
+	width: 250px;
+	text-align: center;
+}
+
+i.fa.fa-github
+{
+	font-size: 50px;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.fa.fa-github:hover
+{
+	border-bottom: 0px solid;
+	color: #FFFFFF;
+}
+
+a.btn.btn-default.page-scroll
+{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	width: 170px;
+	transition: all 0.3s ease-in-out;
+}
+
+a.btn.btn-default.page-scroll:hover
+{
+	background-color: lightblue;
+	color: black;
+}
+
+i.fa.fa-bars
+{
+	color: #9d9d9d;
+	transition: all 1.0s;
+}
+
+i.fa.fa-bars:hover
+{
+	color: #FFFFFF;
+
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+{
+	border: 0px;
+	background-color: #222;
+}
+
+.col-lg-12
+{
+  position: absolute;
+  margin-top: 65px;
+  background-color: black;
+  opacity: 0.6;
+  color: lightblue;
+  border-radius: 15px;
+  font-family: 'Bungee', cursive;
+  font-size: 13px;
+  line-height: 2.0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  text-align: justify;
+  cursor: default;
+  padding-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+	border-bottom: 3px solid navy;
+	background-color: transparent;
+	transition: all 0s;
+}

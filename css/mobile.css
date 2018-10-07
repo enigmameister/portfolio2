@@ -1,0 +1,29 @@
+.col-lg-12
+{
+  position: absolute;
+  margin-top: 55px;
+  background-color: black;
+  opacity: 0.6;
+  color: lightblue;
+  border-radius: 15px;
+  font-family: 'Bungee', cursive;
+  font-size: 13px;
+  line-height: 2.0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  text-align: justify;
+  cursor: default;
+  padding-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+  background-color: transparent;
+  border-bottom: 0px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+{
+  background-color: transparent;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+canvas
+{ 
+  display: block; 
+  vertical-align: bottom; 
+} 
+
+.particles
+{
+  height: 100%;
+}
+
+#particles-js
+{ 
+  position:absolute; 
+  width: 100%; 
+  height: 100%;
+  background-color: #0b0728; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 50% 50%; 
+  border-bottom: 1px solid #333;
+}
